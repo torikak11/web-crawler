@@ -4,7 +4,8 @@
   "description": "A JavaScript application that generates an 'internal links' report for any website",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/torikak11/web-crawler/issues"
   },
-  "homepage": "https://github.com/torikak11/web-crawler#readme"
+  "homepage": "https://github.com/torikak11/web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "jsdom": "^21.1.1"
+  }
 }
